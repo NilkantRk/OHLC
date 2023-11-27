@@ -1,0 +1,10 @@
+[package]
+name = "ohlc_calculator_bin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ohlc_calculator = { path = "../ohlc_calculator" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
